@@ -1,0 +1,12 @@
+nome = str(input('Digite um nome: ')).strip().lower()
+n1 = print('silva' in nome.lower())
+n2 = print(nome[:6].upper() in 'SANTOS')
+n3 = nome.split()
+l1 = print('A letra o aparece pela primeira vez em {}'.format(nome.find('o')))
+l2 = print('A letra o aparece pela ultima vez na {} posição'.format(nome.rfind('o')))
+l3 = print('A letra o aparece {} vezes'.format(nome.count('o')))
+print('O nome em minúsculo é {} '.format(nome.lower()))
+print('O nome em maiúsculo é {} '.format(nome.upper()))
+print('O primeiro nome é {} e tem {} letras '.format(n3[0],len(n3[0])))
+print('O nome completo possui {} letras'.format(len(nome)))
+
